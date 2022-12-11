@@ -15,15 +15,25 @@ body{
 .header-style{
     background-color: var(--Amarillo);
     padding: 10px;
+
+}
+
+.top-header{
+    display: flex;
+    align-items: center;
 }
 
 header div.logo{
-    padding: 10px;
+    padding: 5px;
     width: 50%;
 }
 
 header nav{
-    font-size: 12px;
+    display: none;
+}
+
+.form{
+    width: 50%;
 }
 
 header .form .input{
@@ -60,18 +70,23 @@ section.banner img{
     text-align: center;}
 
 div.burger-menu{
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 div.burger-menu i{
+    display: flex;
     background-color: var(--Celeste);
-    border-radius: 5px;
+    border-radius: 7px;
     color: white;
     font-size: 20px;
-    height: 40px;
+    height: 30px;
     margin: 10px;
     padding: 10px;
-    width: 40px;
+    width: 30px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .precio{
@@ -182,6 +197,59 @@ article div.articulo-principal{
     body{
         font-family: 'Roboto', sans-serif;
         background-color: var(--Gris-claro);
+    }
+
+    .top-header{
+        display: flex;
+        align-items: center;
+    }
+
+    .top-header .logo{
+        width: 50%;
+    }
+
+    .top-header .form{
+        width: 50%
+    }
+
+    .top-header .texto-tarjeta{
+        font-size: 15px;
+        margin-right: 6px;
+        margin-left: auto;
+    }
+    
+    div.burger-menu{
+        display: none;
+    }
+
+    .nav-bar-container{
+        display: flex;
+    }
+
+    .nav-bar01{
+        display: flex;
+        list-style: none;
+        font-size: 14px;
+        margin-left: 2px;
+        flex-wrap: wrap;
+        padding-left: 0px;
+    }
+
+    .nav-bar01 li{
+        padding-left: 25px;
+    }
+
+    .nav-bar02{
+        display: flex;
+        list-style: none;
+        font-size: 14px;
+        margin-right: 1px;
+        margin-left: auto;
+        padding-right: 12px;
+    }
+
+    .nav-bar02 li{
+        padding-left: 25px;
     }
 
     .main-container{
