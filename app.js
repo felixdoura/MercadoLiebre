@@ -3,6 +3,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 // const port = 3000
+const createError = require("http-errors")
 
 app.use (express.static("public"))
 app.get ('/', (req, res) => {
@@ -20,7 +21,7 @@ app.get ('/login', (req, res) => {
 });
 
 const port = process.env.PORT || 3001;
-app.listen(port,()=>console.log("Servidor corriendo en el puerto "));
+app.listen(port,()=>console.log("Servidor corriendo en el puerto "+port));
 
 // app.listen (port, () => 
 // console.log("Esta corriendo el puerto "+port));
