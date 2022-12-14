@@ -63,64 +63,14 @@
 
     <main class="main-container">
 
-        <form class="formularios" action="/register" method="post">
-            <label for="nombre">Nombre y Apellido:</label>
-            <input type="text" name="Nombre y Apellido" id="nombre">
-            
-            <label for="nombre-de-usuario">Nombre de Usuario:</label>
-            <input type="text" name="Nombre de Usuario" id="nombre-de-usuario">
+        <section class="formularios">
+        <label for="nombre-de-usuario">Nombre de Usuario:</label>
+        <input type="text" name="Nombre de Usuario" id="nombre-de-usuario">
 
-            <label for="email">E-mail:</label>
-            <input type="email" name="E-mail" id="email">
+        <label for="password">Introduce Tu Contrasena</label>
+        <input type="password" name="password" id="password">
+        </section>
 
-            <label for="fecha-de-nacimiento">Fecha de Nacimiento:</label>
-            <input type="date" name="fecha" id="fecha-de-nacimiento" value="2020-01-01">
-
-            <label for="domicilio">Domicilio:</label>
-            <input type="text" name="domicilio" id="domicilio">
-
-            <label for="perfil-de-usuario">Perfil de Usuario:</label>
-
-            <div class="opciones-perfil">
-
-                <label for="vendedor">Vendedor</label>
-                <input type="radio" name="perfil-de-usuario" value="Vendedor" id="vendedor">
-                <label for="comprador">Comprador</label>
-                <input type="radio" name="perfil-de-usuario" value="Comprador" id="comprador">
-            </div>
-
-            <label for="categorias-de-interes">Categorias de Interes:</label>
-
-            <div class="opciones-de-categorias">
-                <label for="electro">Electro</label>
-                <input type="checkbox" name="electro">
-                <label for="hogar">Hogar</label>
-                <input type="checkbox" name="hogar">
-                <label for="moda">Moda</label>
-                <input type="checkbox" name="moda">
-                <label for="jugueteria">Jugueteria</label>
-                <input type="checkbox" name="jugueteria">
-                <label for="vida-sana">Salud</label>
-                <input type="checkbox" name="vida-sana">
-            </div>
-
-            <label for="avatar">Selecciona una Foto de Perfil:</label>
-            <input type="file" name="avatar" accept=".jpg">
-
-            <label for="password">Crea una Contrasena</label>
-            <input type="password" name="password" id="password">
-
-            <label for="repeat-password">Reingresa la Contrasena</label>
-            <input type="password" name="repeat-password" id="repeat-password">
-
-            <div class="botones-formulario">
-                <button type="submit">Enviar</button>
-                <button type="reset">Borrar Todo</button>
-            </div>
-
-
-
-        </form>
 
     </main>
 

@@ -14,5 +14,10 @@ app.get ('/register', (req, res) => {
     res.sendFile(path.join(__dirname, "/views/register.html")) 
 });
 
+app.use (express.static("public"))
+app.get ('/login', (req, res) => {
+    res.sendFile(path.join(__dirname, "/views/login.html")) 
+});
+
 app.listen (port, () => 
 console.log("Esta corriendo el puerto "+port));
