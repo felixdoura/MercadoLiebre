@@ -127,7 +127,12 @@ div.burger-menu i{
     font-weight: normal;
     color: var(--Gris-oscuro);
     margin-bottom: 15px;
+    display: block;
+    visibility: hidden;
+}
 
+.producto:hover .descripcion{
+    visibility: visible;
 }
 
 .main-container .ultima-visita{
@@ -293,14 +298,7 @@ article div.articulo-principal{
         width: 45%;
     }
 
-    .descripcion{
-        display: block;
-        visibility: hidden;
-    }
 
-    .producto:hover .descripcion{
-        visibility: visible;
-    }
 
 }
 
