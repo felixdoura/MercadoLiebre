@@ -36,6 +36,27 @@ header nav{
     width: 50%;
 }
 
+.formularios{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    align-items: space-evenly;
+}
+
+.formularios label{
+    margin: 18px;
+}
+
+.formularios .botones-formulario{
+    display: flex;
+    margin-top: 14px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 header .form .input{
     background-color: white;
     border: 1px solid black;

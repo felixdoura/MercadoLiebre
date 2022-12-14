@@ -9,5 +9,10 @@ app.get ('/', (req, res) => {
     res.sendFile(path.join(__dirname, "/views/home.html")) 
 });
 
+app.use (express.static("public"))
+app.get ('/register', (req, res) => {
+    res.sendFile(path.join(__dirname, "/views/register.html")) 
+});
+
 app.listen (port, () => 
 console.log("Esta corriendo el puerto "+port));
