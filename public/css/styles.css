@@ -293,6 +293,15 @@ article div.articulo-principal{
         width: 45%;
     }
 
+    .descripcion{
+        display: block;
+        visibility: hidden;
+    }
+
+    .producto:hover .descripcion{
+        visibility: visible;
+    }
+
 }
 
 
