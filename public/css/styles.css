@@ -328,4 +328,11 @@ article div.articulo-principal{
         flex-direction: row;
         width: 23%;
     }
+
+    .footer-caracteristicas{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+
 }
