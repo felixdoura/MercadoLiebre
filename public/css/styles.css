@@ -191,6 +191,10 @@ div.burger-menu i{
     align-items: center;
 }
 
+.main-container section article i:hover{
+    transform: scaleX(-1);
+}
+
 article div.articulo-principal{
     position: relative;
     display: flex;
