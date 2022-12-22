@@ -224,6 +224,10 @@ article div.articulo-principal{
     font-size: 32px;
 }
 
+.iconos-footer:hover{
+    color: var(--Verde);
+}
+
 .copyrigth{
     font-size: 8px;
     text-align: left;
