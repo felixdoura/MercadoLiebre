@@ -10,6 +10,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--Gris-claro);
+    margin: 0px;
 }
 
 .header-style{
